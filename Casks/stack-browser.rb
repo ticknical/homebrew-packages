@@ -23,5 +23,7 @@ cask "stack-browser" do
 
   depends_on macos: ">= :big_sur"
 
+  app "Stack Next SE.app"
+
   zap trash: ""
 end
